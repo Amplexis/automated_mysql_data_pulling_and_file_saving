@@ -5,9 +5,9 @@ import mysql.connector
 
 def query_database(database, QUERY, filepath):
     mydb = mysql.connector.connect(
-        host='198.123.123.1',
-        user='Pretend_user',
-        password='NotSafe!',
+        host='SAMPLE_HOST',
+        user='SAMPLE_USER',
+        password='SAMPLE_PASSWORD',
         database=database
     )
     mycursor = mydb.cursor()
